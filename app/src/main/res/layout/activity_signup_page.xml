@@ -51,26 +51,30 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:hint="Enter Name"
+                android:hint="Enter Email"
                 android:inputType="text"
                 android:textColorHint="@color/black"
                 android:layout_marginTop="10dp"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:hint="Enter Name"
+                android:hint="Enter Password"
                 android:inputType="text"
                 android:textColorHint="@color/black"
                 android:layout_marginTop="10dp"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:hint="Enter Name"
+                android:hint="Enter Confirmpassword"
                 android:inputType="text"
                 android:textColorHint="@color/black"
                 android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"/>
 
         </LinearLayout>
+
 
 
     </LinearLayout>

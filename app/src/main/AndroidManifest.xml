@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWorld">
         <activity
-            android:name=".Signup_Page"
+            android:name=".Grid_View"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_Page"
+            android:exported="false" />
+        <activity
+            android:name=".List"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

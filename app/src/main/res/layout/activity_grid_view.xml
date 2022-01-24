@@ -6,11 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".List">
+    android:padding="10dp"
+    tools:context=".Grid_View">
 
-    <ListView
-        android:id="@+id/list"
+    <GridView
+        android:id="@+id/grid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_gravity="center"
+        android:stretchMode="columnWidth"
+        />
 
 </LinearLayout>
